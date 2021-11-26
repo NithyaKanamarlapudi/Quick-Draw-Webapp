@@ -33,3 +33,28 @@ h1{
     font-size: 20px;
     font-weight: bold;
 }
+body{
+    background-color: rgb(255, 255, 168);
+}
+h1{
+    background-color: rgb(255, 212, 219);
+    color: mediumblue;
+}
+#show_sketch{
+    float: right;
+    margin-right: 20px;
+}
+
+canvas
+{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 8s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from {box-shadow: 3px 3px 38px lightcoral}
+    to {box-shadow: 3px 3px 38px lightgreen;}
+}
