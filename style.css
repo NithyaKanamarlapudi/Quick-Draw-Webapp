@@ -51,7 +51,7 @@ canvas
     border-radius: 20px;
     animation-name: example;
     animation-duration: 8s;
-    margin-top: 50px;
+    margin-top: 80px;
     animation-iteration-count: infinite;
 }
 @keyframes example{
